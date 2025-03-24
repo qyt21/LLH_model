@@ -1,4 +1,4 @@
-name: hugekitty
+name: hugekitty 
 channels:
   - pytorch
   - nvidia
