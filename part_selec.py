@@ -16,7 +16,6 @@ def preserve_random_part(input_file, output_file, min_preserve, max_preserve):
         return pd.Series(mask)  
 
     masked_data = df.apply(mask_row, axis=1)
-
     masked_data.to_csv(output_file, index=False, header=False)
 
 
