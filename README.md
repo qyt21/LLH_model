@@ -1,3 +1,3 @@
 # LLH_model
 
-![fig1-2](https://github.com/user-attachments/assets/cfb3b0b1-6e3a-4393-8e28-bae7f4fb1526)
+![Figure_1](https://github.com/user-attachments/assets/5fc8ca51-2d10-448c-a20c-0af697a7ce2c)
