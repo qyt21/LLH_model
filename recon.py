@@ -148,7 +148,5 @@ def train_optimized_dnn(
     plt.show()
 
 
-masked_csv = "masked_data.csv"   
-full_csv   = "input.csv"    
-predicted_csv = "reconstructed_curve.csv"
-train_optimized_dnn(masked_csv, full_csv, predicted_csv)
+# Load your file before run
+# for example: train_optimized_dnn(masked_csv, target_csv, predicted_csv)
