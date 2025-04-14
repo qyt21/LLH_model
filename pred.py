@@ -17,11 +17,9 @@ print(f"Using device: {device}")
 torch.manual_seed(42)
 np.random.seed(42)
 
-X_base = pd.read_csv('reconstructed_curve.csv', header=None).values  
-X_35 = pd.read_csv('features.csv', header=None).values  
+# define X_base, X_35, features_CT
+# note that features_CT satisfies: features_CT.columns = ['M0', 'M1', 'M2', 'M3']
 
-features_CT = pd.read_csv('features_mink.csv', header=None)
-features_CT.columns = ['M0', 'M1', 'M2', 'M3']
 y_target = features_CT.values
 
 def objective_function(params, data, sigma_target=1):
